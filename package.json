@@ -1,0 +1,39 @@
+{
+  "name": "com.rpgframework.starter",
+  "version": "0.1.0",
+  "displayName": "RPG Framework Starter",
+  "description": "What the RPG Framework needs to start a game: its modules and the packages they use, and a sample composition root to begin from.",
+  "dependencies": {
+    "com.rpgframework.audio": "5.0.0",
+    "com.rpgframework.battle": "0.1.0",
+    "com.rpgframework.battle.sharedtypes": "0.2.0",
+    "com.rpgframework.core": "0.8.0",
+    "com.rpgframework.core.sharedtypes": "0.3.0",
+    "com.rpgframework.debugroom.sharedtypes": "0.1.0",
+    "com.rpgframework.di": "5.0.0",
+    "com.rpgframework.field": "0.3.1",
+    "com.rpgframework.field.sharedtypes": "0.3.0",
+    "com.rpgframework.localisation": "3.0.0",
+    "com.rpgframework.menu": "0.4.0",
+    "com.rpgframework.menu.sharedtypes": "0.3.0",
+    "com.rpgframework.modulerouter": "0.1.0",
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.mathematics": "1.4.0"
+  },
+  "unity": "6000.6",
+  "samples": [
+    {
+      "displayName": "Starter",
+      "description": "A game's composition root — its entry point, global installer, module and scene databases, router, settings and assets — with a splash screen as a module of its own. Read its README first: it lists the setup it needs.",
+      "path": "Samples~/Starter"
+    }
+  ],
+  "keywords": [
+    "RPG Framework",
+    "Starter"
+  ],
+  "author": {
+    "name": "Elliott Armstrong",
+    "url": "https://github.com/KandyMan1990/RPGFramework.Starter"
+  }
+}
