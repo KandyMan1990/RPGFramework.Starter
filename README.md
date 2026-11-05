@@ -23,8 +23,8 @@ The sample is the game's side of the framework:
   players, the transitions, the dialogue window, the variable map — and the stores the modules share;
 - **module and scene databases**, naming each module's interface and scene;
 - **a module router** deriving from `DefaultModuleRouter`;
-- **a variable map with every required variable**, the player's settings among them, **and input actions** with one
-  action per control slot;
+- **a variable map with every required variable**, the player's settings among them, **and input actions**: a `Player`
+  map for the field and battle, and the `UI` map the menus and UI Toolkit read;
 - **a splash screen module of its own**, showing how a game adds a module: an id, an interface, a module, the component
   binding it in its scene, and a route.
 
