@@ -28,5 +28,5 @@ The sample is the game's side of the framework:
 - **a splash screen module of its own**, showing how a game adds a module: an id, an interface, a module, the component
   binding it in its scene, and a route.
 
-It plays no sounds: the music and SFX providers are empty and its audio intent player is silent, until a game gives them
-sounds.
+It plays no sounds: the music and SFX providers are empty and every sound in its System Sound Config is none, until a
+game gives them sounds.
