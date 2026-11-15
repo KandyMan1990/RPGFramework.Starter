@@ -28,7 +28,8 @@ The sample is the game's side of the framework:
   `UseCaseMusicPlaying`, `UseCaseStandX`, `UseCaseStandY`, `UseCaseStandZ`, `UseCaseStandDirection` and
   `UseCaseInRange`, which a game can delete; its `GameOverField` names `GameOver`, that project's game-over field, so set it to your own — **and input
   actions**: a `Player` map for the field and battle, and the `UI` map the menus and UI Toolkit
-  read;
+  read; with the debug room's define, Backspace held in a field opens the room, being bound to all five of the room's
+  combination actions;
 - **a splash screen module of its own**, showing how a game adds a module: an id, an interface, a module, the component
   binding it in its scene, and a route.
 
