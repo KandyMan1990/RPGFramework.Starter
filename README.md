@@ -3,7 +3,7 @@
 Where a game on the RPG Framework begins: one package that installs the framework's modules and the packages they use,
 and a sample that is a game's composition root, ready to change.
 
-Requires Unity 6000.6 or newer. Installing it installs RPGFramework.Core, Field, Menu, Battle and the module router,
+Requires Unity 6000.7 or newer. Installing it installs RPGFramework.Core, Field, Menu, Battle and the module router,
 with their shared types, RPGFramework.Audio, RPGFramework.DI, RPGFramework.Localisation, the Input System and
 Unity.Mathematics. The debug room is installed separately.
 
