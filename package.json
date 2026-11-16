@@ -4,7 +4,7 @@
   "displayName": "RPG Framework Starter",
   "description": "What the RPG Framework needs to start a game: its modules and the packages they use, and a sample composition root to begin from.",
   "dependencies": {
-    "com.rpgframework.audio": "7.0.0",
+    "com.rpgframework.audio": "8.0.0",
     "com.rpgframework.battle": "0.1.0",
     "com.rpgframework.battle.sharedtypes": "0.2.0",
     "com.rpgframework.core": "0.9.1",
